@@ -21,7 +21,7 @@ $(function() {
                 url: "//formspree.io/sachinik19@gmail.com",
                 type: "POST",
                 data: {
-                    _replyto: name,
+                    name: name,
                     phone: phone,
                     email: email,
                     message: message
