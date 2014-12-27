@@ -6,22 +6,6 @@ $(function() {
             // additional error messages or events
         },
         submitSuccess: function($form, event) {
-        
-        /////Added By Sachin
-            $form.submit();
-            // Success message
-            $('#success').html("<div class='alert alert-success'>");
-            $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                .append("</button>");
-            $('#success > .alert-success')
-                .append("<strong>Your message has been sent. </strong>");
-            $('#success > .alert-success')
-                .append('</div>');
-
-            //clear all fields
-            $('#contactForm').trigger("reset");
-            return;
-     //////Added By Sachin end
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
@@ -34,14 +18,15 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "//formspree.io/sachinik19@gmail.com",
                 type: "POST",
                 data: {
-                    name: name,
+                    _replyto: name,
                     phone: phone,
                     email: email,
                     message: message
                 },
+                dataType: "json",
                 cache: false,
                 success: function() {
                     // Success message
