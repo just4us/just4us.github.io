@@ -1,0 +1,62 @@
+[
+    {   
+        "name": "vlcc",
+        "price": 3500,
+        "expiry": "31 Dec 2014",
+        "images": {
+            "thumb": "img/deals/vlcc-th.jpg",
+            "front": "img/deals/vlcc-fr.jpg",
+            "back": "img/deals/vlcc-bk.jpg"
+        }
+    },
+    {   
+        "name": "sawasdee",
+        "price": 3500,
+        "expiry": "31 Dec 2014",
+        "images": {
+            "thumb": "img/deals/sawasdee-th.jpg",
+            "front": "img/deals/sawasdee-fr.jpg",
+            "back": "img/deals/sawasdee-bk.jpg"
+        }
+    },
+    {   
+        "name": "ohotel",
+        "price": 3500,
+        "expiry": "31 Dec 2014",
+        "images": {
+            "thumb": "img/deals/ohotel-th.jpg",
+            "front": "img/deals/ohotel-fr.jpg",
+            "back": "img/deals/ohotel-bk.jpg"
+        }
+    },
+    {   
+        "name": "thevillagerooftop",
+        "price": 3500,
+        "expiry": "31 Dec 2014",
+        "images": {
+            "thumb": "img/deals/thevillagerooftop-th.jpg",
+            "front": "img/deals/thevillagerooftop-fr.jpg",
+            "back": "img/deals/thevillagerooftop-bk.jpg"
+        }
+    },
+    {   
+        "name": "a6",
+        "price": 3500,
+        "expiry": "31 Dec 2014",
+        "images": {
+            "thumb": "img/deals/a6-th.jpg",
+            "front": "img/deals/a6-fr.jpg",
+            "back": "img/deals/a6-bk.jpg"
+        }
+    },
+    {   
+        "name": "ishaan",
+        "price": 3500,
+        "expiry": "31 Dec 2014",
+        "images": {
+            "thumb": "img/deals/ishaan-th.jpg",
+            "front": "img/deals/ishaan-fr.jpg",
+            "back": "img/deals/ishaan-bk.jpg"
+        }
+    }
+]
