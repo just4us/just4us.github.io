@@ -3,6 +3,7 @@
         "name": "vlcc",
         "price": 3500,
         "expiry": "31 Dec 2014",
+        "tags": ["salon", "health", "beauty"],
         "images": {
             "thumb": "img/deals/vlcc-th.jpg",
             "front": "img/deals/vlcc-fr.jpg",
@@ -13,6 +14,7 @@
         "name": "sawasdee",
         "price": 3500,
         "expiry": "31 Dec 2014",
+        "tags": ["spa", "salon", "health", "beauty"],
         "images": {
             "thumb": "img/deals/sawasdee-th.jpg",
             "front": "img/deals/sawasdee-fr.jpg",
@@ -23,6 +25,7 @@
         "name": "ohotel",
         "price": 3500,
         "expiry": "31 Dec 2014",
+        "tags": ["ohotel", "o hotel", "hotel", "stay"],
         "images": {
             "thumb": "img/deals/ohotel-th.jpg",
             "front": "img/deals/ohotel-fr.jpg",
@@ -33,6 +36,7 @@
         "name": "thevillagerooftop",
         "price": 3500,
         "expiry": "31 Dec 2014",
+        "tags": ["the village rooftop", "hotel", "restaurant", "food"],
         "images": {
             "thumb": "img/deals/thevillagerooftop-th.jpg",
             "front": "img/deals/thevillagerooftop-fr.jpg",
@@ -43,6 +47,7 @@
         "name": "a6",
         "price": 3500,
         "expiry": "31 Dec 2014",
+        "tags": [ "atmosphere 6", "atmosphere6", "lounge", "bar", "grill", "dine", "restaurant", "food"],
         "images": {
             "thumb": "img/deals/a6-th.jpg",
             "front": "img/deals/a6-fr.jpg",
@@ -53,6 +58,29 @@
         "name": "ishaan",
         "price": 3500,
         "expiry": "31 Dec 2014",
+        "tags": ["juice", "snacks", "restaurant", "food"],
+        "images": {
+            "thumb": "img/deals/ishaan-th.jpg",
+            "front": "img/deals/ishaan-fr.jpg",
+            "back": "img/deals/ishaan-bk.jpg"
+        }
+    },
+    {   
+        "name": "a6",
+        "price": 3500,
+        "expiry": "31 Dec 2014",
+        "tags": [ "atmosphere 6", "atmosphere6", "lounge", "bar", "grill", "dine", "restaurant", "food"],
+        "images": {
+            "thumb": "img/deals/a6-th.jpg",
+            "front": "img/deals/a6-fr.jpg",
+            "back": "img/deals/a6-bk.jpg"
+        }
+    },
+    {   
+        "name": "ishaan",
+        "price": 3500,
+        "expiry": "31 Dec 2014",
+        "tags": ["juice", "snacks", "restaurant", "food"],
         "images": {
             "thumb": "img/deals/ishaan-th.jpg",
             "front": "img/deals/ishaan-fr.jpg",

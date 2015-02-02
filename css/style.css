@@ -1,0 +1,23 @@
+.navbar-default .navbar-brand .img-responsive {
+    margin-top: -17px;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    padding: 0px;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+    margin-bottom: 0px;
+    padding-top: 7px;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    //line-height: 0px;
+}
+
+.searchbox {
+    margin-top: 7px;
+}
+
