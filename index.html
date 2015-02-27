@@ -170,9 +170,9 @@
                 </div>
             </div>
             <div class="row">
-                <script>dealImpression('{{deal.name}}', '{{deal.category}}', {{deal.price}}, {{$index}} );</script>
                 <div class="col-md-3 col-sm-6 portfolio-item thumbnail" ng-repeat="deal in deals | filter:searchquery">
-                    <a href="#portfolioModal-{{deal.name}}" onclick="dealShow('{{deal.name}}', '{{deal.category}}, {{deal.price}}, {{$index}}');" class="portfolio-link" data-toggle="modal">
+                    <script>dealImpression('{{deal.name}}', '{{deal.category}}', {{deal.price}}, {{$index}} );</script>
+                    <a href="#portfolioModal-{{deal.name}}" onclick="showDeal('{{deal.name}}', '{{deal.category}}, {{deal.price}}, {{$index}}');" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -410,15 +410,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; JUST4US 2014</span>
+                    <span class="copyright">Copyright &copy; Just4Us 2014</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a onclick="ga('send', 'event', 'Main', 'Social Network', 'Twitter');" href="#"><i class="fa fa-twitter"></i></a>
+                        <!--li><a onclick="ga('send', 'event', 'Main', 'Social Network', 'Twitter');" href="#"><i class="fa fa-twitter"></i></a>
+                        </li-->
+                        <li><a onclick="ga('send', 'event', 'Main', 'Social Network', 'Facebook');" href="http://www.facebook.com/just4usmakeslifeeasy" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a onclick="ga('send', 'event', 'Main', 'Social Network', 'Facebook');" href="http://www.facebook.com/just4usindia" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a onclick="ga('send', 'event', 'Main', 'Social Network', 'LinkedIn');" href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a onclick="ga('send', 'event', 'Main', 'Social Network', 'LinkedIn');" href="http://in.linkedin.com/in/just4us"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
