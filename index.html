@@ -151,7 +151,7 @@
                 </div>
             </div>
             <div class="row">
-                <script>dealImpression({{deal.name}}, {{deal.category}}, {{deal.price}}, {{$index}} );</script>
+                <script>dealImpression('{{deal.name}}', '{{deal.category}}', {{deal.price}}, {{$index}} );</script>
                 <div class="col-md-3 col-sm-6 portfolio-item thumbnail" ng-repeat="deal in deals | filter:searchquery">
                     <a href="#portfolioModal-{{deal.name}}" onclick="dealShow('{{deal.name}}', '{{deal.category}}, {{deal.price}}, {{$index}}');" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
