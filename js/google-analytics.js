@@ -1,6 +1,6 @@
 $( "#searchbox" )
   .focusout(function() {
-    ga('send', 'event', 'Main', 'Search', this.value);"
+    ga('send', 'event', 'Main', 'Search', this.value);
 })
 
 $( "#portfolio" )
