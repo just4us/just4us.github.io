@@ -5,6 +5,7 @@
         "saving": 3500,
         "subject": "Health & Beauty",
         "expiry": "31 Dec 2014",
+        "category": "Beauty Salon",
         "tags": ["salon", "health", "beauty"],
         "images": {
             "thumb": "img/deals/vlcc-th.jpg",
@@ -18,6 +19,7 @@
         "saving": 500,
         "subject": "Traditional Thai Spa",
         "expiry": "31 Dec 2014",
+        "category": "Spa",
         "tags": ["spa", "salon", "health", "beauty"],
         "images": {
             "thumb": "img/deals/sawasdee-th.jpg",
@@ -31,6 +33,7 @@
         "saving": 400,
         "subject": "Hotel & Restaurent",
         "expiry": "31 Dec 2014",
+        "category": "Hotel",
         "tags": ["ohotel", "o hotel", "hotel", "stay"],
         "images": {
             "thumb": "img/deals/ohotel-th.jpg",
@@ -44,6 +47,7 @@
         "saving": 200,
         "subject": "Rooftop Restaurent & Bar",
         "expiry": "31 Dec 2014",
+        "category": "Food",
         "tags": ["the village rooftop", "hotel", "restaurant", "food"],
         "images": {
             "thumb": "img/deals/thevillagerooftop-th.jpg",
@@ -57,6 +61,7 @@
         "saving": 200,
         "subject": "Rooftop Restaurent & Bar",
         "expiry": "31 Dec 2014",
+        "category": "Food",
         "tags": [ "atmosphere 6", "atmosphere6", "lounge", "bar", "grill", "dine", "restaurant", "food"],
         "images": {
             "thumb": "img/deals/a6-th.jpg",
@@ -70,6 +75,7 @@
         "saving": 150,
         "subject": "Snacks Center @ Magarpatta City",
         "expiry": "31 Dec 2014",
+        "category": "Food",
         "tags": ["juice", "snacks", "restaurant", "food"],
         "images": {
             "thumb": "img/deals/ishaan-th.jpg",
@@ -83,6 +89,7 @@
         "saving": 500,
         "subject": "Agro Tourism",
         "expiry": "31 Dec 2014",
+        "category": "Leisure",
         "tags": ["getaway", "adventure sport", "outing", "agriculture"],
         "images": {
             "thumb": "img/deals/ishaan-th.jpg",
@@ -96,6 +103,7 @@
         "saving": 500,
         "subject": "TVS Wego",
         "expiry": "31 Dec 2014",
+        "category": "Automobile",
         "tags": ["two wheeler", "scooter"],
         "images": {
             "thumb": "img/deals/ishaan-th.jpg",
