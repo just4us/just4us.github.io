@@ -171,8 +171,8 @@
             </div>
             <div class="row">
                 <div class="col-md-3 col-sm-6 portfolio-item thumbnail" ng-repeat="deal in deals | filter:searchquery">
-                    <script>dealImpression('{{deal.name}}', '{{deal.category}}', '{{deal.price}}', '{{$index}}' );</script>
-                    <a href="#portfolioModal-{{deal.name}}" onclick="showDeal('{{deal.name}}', '{{deal.category}}, {{deal.price}}, {{$index}}');" class="portfolio-link" data-toggle="modal">
+                    <script>try {dealImpression({{deal.name}} + '', {{deal.category}} + '', {{deal.price}}, {{$index}} );}catch(e){}</script>
+                    <a href="#portfolioModal-{{deal.name}}" onclick="showDeal({{deal.name}}, {{deal.category}}, {{deal.price}}, {{$index}});" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
