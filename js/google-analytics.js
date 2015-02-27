@@ -6,30 +6,30 @@ $( "#searchbox" )
 $( "#portfolio" )
   .focusout(function() {
     ga('set', { page: '/#page-top', title: 'Home'});
-    ga('send', 'pageview', '/#page-top');"
+    ga('send', 'pageview', '/#page-top');
 })
 
 $( "#about" )
   .focusout(function() {
     ga('set', { page: '/#about', title: 'About'});
-    ga('send', 'pageview', '/#about');"
+    ga('send', 'pageview', '/#about');
 })
 
 $( "#contact" )
   .focusout(function() {
     ga('set', { page: '/#contact', title: 'Deals'});
-    ga('send', 'pageview', '/#contact');"
+    ga('send', 'pageview', '/#contact');
 })
 
 $( "#send_email" )
   .click(function() {
-    ga('send', 'event', 'Contact', 'email', $('#email').value);"
+    ga('send', 'event', 'Contact', 'email', $('#email').value);
     //if ordering booklet
 })
 
 $( "#getbooklet" )
   .click(function() {
-    ga('send', 'event', 'Contact', 'email', $('#email').value);"
+    ga('send', 'event', 'Contact', 'email', $('#email').value);
 })
 
 function dealImpression(name, category, price, position ) {
