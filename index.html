@@ -16,6 +16,7 @@
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
     <script src="js/services.js"></script>
+    <script src="js/google-analytics.js"></script>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -67,20 +68,20 @@
                         <a class="page-scroll" href="#services">Services</a>
                     </li> -->
                     <li>
-                        <a class="page-scroll" href="#portfolio">Deals</a>
+                        <a class="page-scroll" onclick="ga('send', 'event', 'Main', 'Navigate', 'Deals');" href="#portfolio">Deals</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" onclick="ga('send', 'event', 'Main', 'Navigate', 'About');" href="#about">About</a>
                     </li>
                     <!-- <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" onclick="ga('send', 'event', 'Main', 'Navigate', 'About');" href="#team">About</a>
                     </li>-->
                     <li> 
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" onclick="ga('send', 'event', 'Main', 'Navigate', 'Contact');" href="#contact">Contact</a>
                     </li>
                 </ul>
                         <div class="searchbox input-group col-lg-2 col-lg-offset-5">
-						    <input type="search" class="form-control" placeholder="Search Deals..." ng-model="searchquery"/>
+						    <input type="search" id="searchbox" class="form-control" placeholder="Search Deals..." ng-model="searchquery"/>
 						    <span class="input-group-addon">
 						        <i class="fa fa-search"></i>
 						    </span>
@@ -97,7 +98,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To JUST<sub>4</sub>US</div>
                 <div class="intro-heading">It's Nice To Serve You</div>
-                <a href="#portfolio" class="page-scroll btn btn-xl">Jump To Deals</a>
+                <a href="#portfolio" onclick="ga('send', 'event', 'Main', 'Navigate', 'Jump To Deals');" class="page-scroll btn btn-xl">Jump To Deals</a>
             </div>
         </div>
     </header>
@@ -150,8 +151,9 @@
                 </div>
             </div>
             <div class="row">
+                <script>dealImpression({{deal.name}}, {{deal.category}}, {{deal.price}}, {{deal.position}} );</script>
                 <div class="col-md-3 col-sm-6 portfolio-item thumbnail" ng-repeat="deal in deals | filter:searchquery">
-                    <a href="#portfolioModal-{{deal.name}}" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal-{{deal.name}}" onclick="dealShow('{{deal.name}}', '{{deal.category}}, {{deal.price}}, {{index}}');" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -160,8 +162,8 @@
                         <img src="{{deal.images.thumb}}" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="text-left"><small>Save Rs</small> {{deal.price}}</h4>
-                        <p class="text-right text-muted"><small>Expiry {{deal.expiry}}</small></p>
+                        <h4 class="text-left"><small>Save Rs</small> {{deal.saving}}</h4>
+                        <p class="text-right text-muted"><small>{{deal.subject}}</small></p>
                     </div>
                 </div>
             </div>
@@ -376,7 +378,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button id="send_email" type="submit" class="btn btn-xl">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -393,11 +395,11 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        <li><a onclick="ga('send', 'event', 'Main', 'Social Network', 'Twitter');" href="#"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li><a href="http://www.facebook.com/just4usindia" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <li><a onclick="ga('send', 'event', 'Main', 'Social Network', 'Facebook');" href="http://www.facebook.com/just4usindia" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a onclick="ga('send', 'event', 'Main', 'Social Network', 'LinkedIn');" href="#"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -417,7 +419,7 @@
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
     <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{deal.name}}" tabindex="-1" role="dialog" aria-hidden="true" ng-repeat="deal in deals">
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{deal.name}}" tabindex="-1" role="dialog" aria-hidden="true" ng-repeat="deal in deals|index">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -437,7 +439,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button id="getbooklet" href="#contact" class="getbooklet btn btn-primary btn-lg"><i class="fa fa-check"></i> Get Booklet</button>
+                    <button id="getbooklet" onclick="purchaseDeal('{{deal.name}}', '{{deal.category}}, {{deal.price}}');" href="#contact" class="getbooklet btn btn-primary btn-lg"><i class="fa fa-check"></i> Get Booklet</button>
                 </div>
             </div>
         </div>

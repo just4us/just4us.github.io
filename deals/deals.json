@@ -1,7 +1,9 @@
 [
     {   
         "name": "vlcc",
-        "price": 3500,
+        "price": 299,
+        "saving": 3500,
+        "subject": "Health & Beauty",
         "expiry": "31 Dec 2014",
         "tags": ["salon", "health", "beauty"],
         "images": {
@@ -12,7 +14,9 @@
     },
     {   
         "name": "sawasdee",
-        "price": 3500,
+        "price": 299,
+        "saving": 500,
+        "subject": "Traditional Thai Spa",
         "expiry": "31 Dec 2014",
         "tags": ["spa", "salon", "health", "beauty"],
         "images": {
@@ -23,7 +27,9 @@
     },
     {   
         "name": "ohotel",
-        "price": 3500,
+        "price": 2000,
+        "saving": 400,
+        "subject": "Hotel & Restaurent",
         "expiry": "31 Dec 2014",
         "tags": ["ohotel", "o hotel", "hotel", "stay"],
         "images": {
@@ -34,7 +40,9 @@
     },
     {   
         "name": "thevillagerooftop",
-        "price": 3500,
+        "price": 299,
+        "saving": 200,
+        "subject": "Rooftop Restaurent & Bar",
         "expiry": "31 Dec 2014",
         "tags": ["the village rooftop", "hotel", "restaurant", "food"],
         "images": {
@@ -45,7 +53,9 @@
     },
     {   
         "name": "a6",
-        "price": 3500,
+        "price": 299,
+        "saving": 200,
+        "subject": "Rooftop Restaurent & Bar",
         "expiry": "31 Dec 2014",
         "tags": [ "atmosphere 6", "atmosphere6", "lounge", "bar", "grill", "dine", "restaurant", "food"],
         "images": {
@@ -56,7 +66,9 @@
     },
     {   
         "name": "ishaan",
-        "price": 3500,
+        "price": 150,
+        "saving": 150,
+        "subject": "Snacks Center @ Magarpatta City",
         "expiry": "31 Dec 2014",
         "tags": ["juice", "snacks", "restaurant", "food"],
         "images": {
@@ -66,25 +78,29 @@
         }
     },
     {   
-        "name": "a6",
-        "price": 3500,
+        "name": "The Hidden Oasis",
+        "price": 299,
+        "saving": 500,
+        "subject": "Agro Tourism",
         "expiry": "31 Dec 2014",
-        "tags": [ "atmosphere 6", "atmosphere6", "lounge", "bar", "grill", "dine", "restaurant", "food"],
-        "images": {
-            "thumb": "img/deals/a6-th.jpg",
-            "front": "img/deals/a6-fr.jpg",
-            "back": "img/deals/a6-bk.jpg"
-        }
-    },
-    {   
-        "name": "ishaan",
-        "price": 3500,
-        "expiry": "31 Dec 2014",
-        "tags": ["juice", "snacks", "restaurant", "food"],
+        "tags": ["getaway", "adventure sport", "outing", "agriculture"],
         "images": {
             "thumb": "img/deals/ishaan-th.jpg",
             "front": "img/deals/ishaan-fr.jpg",
             "back": "img/deals/ishaan-bk.jpg"
         }
-    }
+    },
+    {   
+        "name": "tvs",
+        "price": 299,
+        "saving": 500,
+        "subject": "TVS Wego",
+        "expiry": "31 Dec 2014",
+        "tags": ["two wheeler", "scooter"],
+        "images": {
+            "thumb": "img/deals/ishaan-th.jpg",
+            "front": "img/deals/ishaan-fr.jpg",
+            "back": "img/deals/ishaan-bk.jpg"
+        }
+    },
 ]
