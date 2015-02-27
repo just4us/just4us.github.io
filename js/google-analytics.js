@@ -35,15 +35,15 @@ $( "#getbooklet" )
 function dealImpression(name, category, price, position ) {
 
     // The impression from a Related Products section.
-    ga('ec:addImpression', {            // Provide product details in an impressionFieldObject.
-      'id': name,                       // Product ID (string).
-      'name': name,                     // Product name (string).
-      'category': category,             // Product category (string).
-      //'brand': 'Google',              // Product brand (string).
-      //'variant': 'Black',             // Product variant (string).
-      //'list': 'Search Results',       // Product list (string).
-      'position': position,             // Product position (number).
-      'price': price,
+    ga('ec:addImpression', {            
+      'id': name,                       
+      'name': name,                     
+      'category': category,             
+      //'brand': 'Google',              
+      //'variant': 'Black',             
+      //'list': 'Search Results',       
+      'position': position,             
+      'price': price
     });
     
     ga('send', 'event', 'Deals', 'Impression', name);
@@ -51,17 +51,15 @@ function dealImpression(name, category, price, position ) {
     
 function showDeal(name, category, price, position ) {
     // The product being viewed.
-    ga('ec:addProduct', {               // Provide product details in an productFieldObject.
-      'id': name,                       // Product ID (string).
-      'name': name,                     // Product name (string).
-      'category': category,             // Product category (string).
-      //'brand': 'Google',              // Product brand (string).
-      //'variant': 'Black',             // Product variant (string).
-      'position': position,             // Product position (number).
-      'price': price,
+    ga('ec:addProduct', {              
+      'id': name,                       
+      'name': name,                     
+      'category': category,             
+      'position': position,             
+      'price': price
     });
     
-    ga('ec:setAction', 'detail');       // Detail action.
+    ga('ec:setAction', 'detail');       
 
     ga('send', 'event', 'Deals', 'View', name);
 }
