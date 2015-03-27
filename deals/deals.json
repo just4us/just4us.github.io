@@ -1,6 +1,6 @@
 [
     {   
-        "name": "The Hidden Oasis",
+        "name": "oasis1",
         "price": 500,
         "saving": 500,
         "subject": "Agro Tourism",
@@ -28,7 +28,7 @@
         }
     },
     {   
-        "name": "The Hidden Oasis",
+        "name": "oasis",
         "price": 500,
         "saving": 500,
         "subject": "Agro Tourism",
