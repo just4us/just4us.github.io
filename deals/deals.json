@@ -1,5 +1,61 @@
 [
     {   
+        "name": "The Hidden Oasis",
+        "price": 500,
+        "saving": 500,
+        "subject": "Agro Tourism",
+        "expiry": "31 Aug 2015",
+        "category": "Leisure",
+        "tags": ["getaway", "adventure sport", "outing", "agriculture", "games", "picnic"],
+        "images": {
+            "thumb": "img/deals/oasis1-th.jpg",
+            "front": "img/deals/oasis1-fr.jpg",
+            "back": "img/deals/oasis1-bk.jpg"
+        }
+    },
+    {   
+        "name": "msons",
+        "price": 150,
+        "saving": 150,
+        "subject": "Fashion Store",
+        "expiry": "31 July 2015",
+        "category": "Retail",
+        "tags": ["dresses", "garments"],
+        "images": {
+            "thumb": "img/deals/msons-th.jpg",
+            "front": "img/deals/msons-fr.jpg",
+            "back": "img/deals/msons-bk.jpg"
+        }
+    },
+    {   
+        "name": "The Hidden Oasis",
+        "price": 500,
+        "saving": 500,
+        "subject": "Agro Tourism",
+        "expiry": "31 Aug 2015",
+        "category": "Leisure",
+        "tags": ["getaway", "adventure sport", "outing", "agriculture", "games", "picnic"],
+        "images": {
+            "thumb": "img/deals/oasis-th.jpg",
+            "front": "img/deals/oasis-fr.jpg",
+            "back": "img/deals/oasis-bk.jpg"
+        }
+    },
+    {   
+        "name": "adventuregames",
+        "price": 299,
+        "saving": 500,
+        "subject": "Adventure Games",
+        "expiry": "30 Dec 2015",
+        "category": "Tourism",
+        "tags": ["games", "adventure sport", "leisure", "picnic", "outing", "getaway"],
+        "images": {
+            "thumb": "img/deals/adventureplus-th.jpg",
+            "front": "img/deals/adventureplus-fr.jpg",
+            "back": "img/deals/adventureplus-bk.jpg"
+        }
+    },
+    {   
         "name": "vlcc",
         "price": 299,
         "saving": 3500,
@@ -67,48 +123,6 @@
             "thumb": "img/deals/a6-th.jpg",
             "front": "img/deals/a6-fr.jpg",
             "back": "img/deals/a6-bk.jpg"
-        }
-    },
-    {   
-        "name": "ishaan",
-        "price": 150,
-        "saving": 150,
-        "subject": "Snacks Center @ Magarpatta City",
-        "expiry": "31 Dec 2014",
-        "category": "Food",
-        "tags": ["juice", "snacks", "restaurant", "food"],
-        "images": {
-            "thumb": "img/deals/ishaan-th.jpg",
-            "front": "img/deals/ishaan-fr.jpg",
-            "back": "img/deals/ishaan-bk.jpg"
-        }
-    },
-    {   
-        "name": "The Hidden Oasis",
-        "price": 299,
-        "saving": 500,
-        "subject": "Agro Tourism",
-        "expiry": "31 Dec 2014",
-        "category": "Leisure",
-        "tags": ["getaway", "adventure sport", "outing", "agriculture"],
-        "images": {
-            "thumb": "img/deals/ishaan-th.jpg",
-            "front": "img/deals/ishaan-fr.jpg",
-            "back": "img/deals/ishaan-bk.jpg"
-        }
-    },
-    {   
-        "name": "tvs",
-        "price": 299,
-        "saving": 500,
-        "subject": "TVS Wego",
-        "expiry": "31 Dec 2014",
-        "category": "Automobile",
-        "tags": ["two wheeler", "scooter"],
-        "images": {
-            "thumb": "img/deals/ishaan-th.jpg",
-            "front": "img/deals/ishaan-fr.jpg",
-            "back": "img/deals/ishaan-bk.jpg"
         }
     }
 ]
