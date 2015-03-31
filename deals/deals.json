@@ -1,6 +1,7 @@
 [
     {   
         "name": "oasis1",
+        "display" : "The Hidden Oasis",
         "price": 500,
         "saving": 500,
         "subject": "Buy 1 Get 1 Free",
@@ -15,6 +16,7 @@
     },
     {   
         "name": "msons",
+        "display" : "MSONS Fasion Store",
         "price": 150,
         "saving": 150,
         "subject": "10% Off",
@@ -29,6 +31,7 @@
     },
     {   
         "name": "adventuregames",
+        "display" : "Adventure Games",
         "price": 299,
         "saving": 500,
         "subject": "Buy 1 Get 1 Free",
