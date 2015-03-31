@@ -16,7 +16,7 @@ $(function() {
                 scrollTop: $(button.attr('href')).offset().top
             }, 1500, 'easeInOutExpo');
 
-            $("textarea#message").val('Kindly send me the coupon booklet at \n\nADDRESS: \n');
+            $("textarea#message").val('Kindly send me the discount voucher booklet at \n\nADDRESS: \n');
             $("input#name").focus();
 
             $('#'+mModalId).off('hidden.bs.modal');

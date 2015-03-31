@@ -18,13 +18,14 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "//formspree.io/admin@just4us.in",
+                url: "//api.just4us.in/api/users/booklet",
                 type: "POST",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
-                    message: message
+                    message: message,
+                    address: message
                 },
                 dataType: "json",
                 cache: false,
