@@ -27,7 +27,7 @@ $(function() {
                     message: message,
                     address: message
                 },
-                //contentType: "application/json",
+                contentType: "application/json",
                 //processData: false,     //To send data as object
                 dataType: "json",       //how to process return data
                 traditional = true,
