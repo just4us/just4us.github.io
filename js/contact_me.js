@@ -30,7 +30,7 @@ $(function() {
                 contentType: "application/json",
                 //processData: false,     //To send data as object
                 dataType: "json",       //how to process return data
-                traditional = true,
+                traditional: true,
                 cache: false,
                 success: function() {
                     // Success message
