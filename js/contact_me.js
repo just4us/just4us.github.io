@@ -32,7 +32,7 @@ $(function() {
                 //processData: false,     //To send data as object
                 dataType: "json",       //how to process return data
                 cache: false,
-                complete: callback,
+                complete: 'callback',
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
