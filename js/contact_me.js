@@ -20,13 +20,13 @@ $(function() {
             $.ajax({
                 url: "//api.just4us.in/api/users/booklet",
                 type: "POST",
-                data: {
+                data: JSON.stringify({
                     name: name,
                     phone: phone,
                     email: email,
                     message: message,
                     address: message
-                },
+                }),
                 contentType: "application/json",
                 //processData: false,     //To send data as object
                 dataType: "json",       //how to process return data
