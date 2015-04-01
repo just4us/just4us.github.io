@@ -27,10 +27,9 @@ $(function() {
                     message: message,
                     address: message
                 }),
-                contentType: "application/json",
+                contentType: "application/json; charset=utf-8",
                 //processData: false,     //To send data as object
                 dataType: "json",       //how to process return data
-                traditional: true,
                 cache: false,
                 success: function() {
                     // Success message
