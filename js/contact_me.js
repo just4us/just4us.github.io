@@ -17,6 +17,7 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {//
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+
             $.ajax({
                 url: "//api.just4us.in/api/users/booklet",
                 type: "POST",
@@ -28,7 +29,7 @@ $(function() {
                     address: message
                 }),
                 contentType: "application/json; charset=utf-8",
-                //processData: false,     //To send data as object
+                processData: false,     //To send data as object
                 dataType: "json",       //how to process return data
                 cache: false,
                 success: function() {
