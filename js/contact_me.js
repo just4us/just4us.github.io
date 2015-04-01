@@ -1,5 +1,5 @@
 $(function() {
-
+    document.domain = 'just4us.in';
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
