@@ -9,9 +9,9 @@
         "category": "Leisure",
         "tags": ["getaway", "adventure sport", "outing", "agriculture", "games", "picnic"],
         "images": {
-            "thumb": "img/deals/oasis1-th.jpg",
+            "thumb": "img/deals/oasis1-fr.jpg",
             "front": "img/deals/oasis1-fr.jpg",
-            "back": "img/deals/oasis1-fr.jpg"
+            "back": "img/deals/oasis1-bk.jpg"
         }
     },
     {   
@@ -24,9 +24,9 @@
         "category": "Retail",
         "tags": ["dresses", "garments"],
         "images": {
-            "thumb": "img/deals/msons-th.jpg",
+            "thumb": "img/deals/msons-fr.jpg",
             "front": "img/deals/msons-fr.jpg",
-            "back": "img/deals/msons-fr.jpg"
+            "back": "img/deals/msons-bk.jpg"
         }
     },
     {   
@@ -39,9 +39,9 @@
         "category": "Tourism",
         "tags": ["games", "adventure sport", "leisure", "picnic", "outing", "getaway"],
         "images": {
-            "thumb": "img/deals/adventureplus-th.jpg",
+            "thumb": "img/deals/adventureplus-fr.jpg",
             "front": "img/deals/adventureplus-fr.jpg",
-            "back": "img/deals/adventureplus-fr.jpg"
+            "back": "img/deals/adventureplus-bk.jpg"
         }
     }
 ]
