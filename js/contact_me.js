@@ -29,9 +29,10 @@ $(function() {
                     address: message
                 }),
                 contentType: "application/json; charset=utf-8",
-                processData: false,     //To send data as object
+                //processData: false,     //To send data as object
                 dataType: "json",       //how to process return data
                 cache: false,
+                complete: callback,
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
