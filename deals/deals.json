@@ -11,7 +11,7 @@
         "images": {
             "thumb": "img/deals/oasis1-th.jpg",
             "front": "img/deals/oasis1-fr.jpg",
-            "back": "img/deals/oasis1-bk.jpg"
+            "back": "img/deals/oasis1-fr.jpg"
         }
     },
     {   
@@ -26,7 +26,7 @@
         "images": {
             "thumb": "img/deals/msons-th.jpg",
             "front": "img/deals/msons-fr.jpg",
-            "back": "img/deals/msons-bk.jpg"
+            "back": "img/deals/msons-fr.jpg"
         }
     },
     {   
@@ -41,7 +41,7 @@
         "images": {
             "thumb": "img/deals/adventureplus-th.jpg",
             "front": "img/deals/adventureplus-fr.jpg",
-            "back": "img/deals/adventureplus-bk.jpg"
+            "back": "img/deals/adventureplus-fr.jpg"
         }
     }
 ]
