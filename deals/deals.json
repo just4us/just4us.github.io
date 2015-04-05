@@ -13,8 +13,8 @@
             "front": "img/deals/oasis1-fr.jpg",
             "back": "img/deals/oasis1-bk.jpg"
         }
-    },
-    {   
+    }
+    ,{   
         "name": "msons",
         "display" : "MSONS Fasion Store",
         "price": 150,
@@ -28,8 +28,8 @@
             "front": "img/deals/msons-fr.jpg",
             "back": "img/deals/msons-bk.jpg"
         }
-    },
-    {   
+    }
+    ,{   
         "name": "vlcc",
         "display" : "VLCC",
         "price": 299,
@@ -43,8 +43,8 @@
             "front": "img/deals/vlcc-fr.jpg",
             "back": "img/deals/vlcc-bk1.jpg"
         }
-    },
-    {   
+    }
+    ,{   
         "name": "ishaan",
         "display" : "Ishaan Snacks & Juice Bar",
         "price": 150,
@@ -58,8 +58,8 @@
             "front": "img/deals/ishaan-fr.jpg",
             "back": "img/deals/ishaan-bk1.jpg"
         }
-    },
-    {   
+    }
+    ,{   
         "name": "adventuregames",
         "display" : "Adventure Games",
         "price": 299,
@@ -72,6 +72,21 @@
             "thumb": "img/deals/adventureplus-fr.jpg",
             "front": "img/deals/adventureplus-fr.jpg",
             "back": "img/deals/adventureplus-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "zameer",
+        "display" : "Zameer's Biryani, Kababs & More...",
+        "price": 100,
+        "saving": 50,
+        "subject": "Ch. Biryani only at Rs 100/-",
+        "expiry": "31 April 2015",
+        "category": "Food",
+        "tags": ["snacks", "restaurant", "fast food", "biryani", "kabab", "chinese"],
+        "images": {
+            "thumb": "img/deals/zameers-fr.jpg",
+            "front": "img/deals/zameers-fr.jpg",
+            "back": "img/deals/zameers-bk.jpg"
         }
     }
 ]
