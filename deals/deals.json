@@ -30,6 +30,36 @@
         }
     },
     {   
+        "name": "vlcc",
+        "display" : "VLCC",
+        "price": 299,
+        "saving": 150,
+        "subject": "Hair cut only at 299/-",
+        "expiry": "31 July 2015",
+        "category": "Health & Beauty",
+        "tags": ["salon", "health", "beauty", "slimming", "weight loss"],
+        "images": {
+            "thumb": "img/deals/vlcc-fr.jpg",
+            "front": "img/deals/vlcc-fr.jpg",
+            "back": "img/deals/vlcc-bk1.jpg"
+        }
+    },
+    {   
+        "name": "ishaan",
+        "display" : "Ishaan Snacks & Juice Bar",
+        "price": 150,
+        "saving": 150,
+        "subject": "Buy 1 Get 1 Offer",
+        "expiry": "31 July 2015",
+        "category": "Retail",
+        "tags": ["juice", "snacks", "restaurant", "fast food"],
+        "images": {
+            "thumb": "img/deals/ishaan-fr.jpg",
+            "front": "img/deals/ishaan-fr.jpg",
+            "back": "img/deals/ishaan-bk1.jpg"
+        }
+    },
+    {   
         "name": "adventuregames",
         "display" : "Adventure Games",
         "price": 299,
