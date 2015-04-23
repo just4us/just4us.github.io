@@ -195,21 +195,6 @@
         }
     }
     ,{   
-        "name": "fastticket",
-        "display" : "Fast Ticket",
-        "price": 500,
-        "saving": 125,
-        "subject": "Get 50% off",
-        "expiry": "31 August 2015",
-        "category": "Entertainment",
-        "tags": ["ticket", "recharge", "bill", "movies", "theatre", "flims", "multiplex", "cinema"],
-        "images": {
-            "thumb": "img/deals/fastticket-fr.jpg",
-            "front": "img/deals/fastticket-fr.jpg",
-            "back": "img/deals/fastticket-bk.jpg"
-        }
-    }
-    ,{   
         "name": "ffd",
         "display" : "Freedom From Diabetes",
         "price": 500,
