@@ -89,4 +89,379 @@
             "back": "img/deals/zameers-bk.jpg"
         }
     }
+    ,{   
+        "name": "amantraspa",
+        "display" : "Amantra Spa",
+        "price": 100,
+        "saving": 50,
+        "subject": "20% discount",
+        "expiry": "31 August 2015",
+        "category": "Health & Beauty",
+        "tags": ["spa", "health", "beauty", "slimming", "wellness"],
+        "images": {
+            "thumb": "img/deals/amantraspa-fr.jpg",
+            "front": "img/deals/amantraspa-fr.jpg",
+            "back": "img/deals/amantraspa-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "arushri",
+        "display" : "Arushri Ayurvedic Chikitsalaya",
+        "price": 1000,
+        "saving": 500,
+        "subject": "Rs 500/- Off",
+        "expiry": "31 August 2015",
+        "category": "Health & Beauty",
+        "tags": ["hospital", "health", "spinal", "infertility", "wellness", "obesity", "treatment", "doctoer"],
+        "images": {
+            "thumb": "img/deals/arushri-fr.jpg",
+            "front": "img/deals/arushri-fr.jpg",
+            "back": "img/deals/arushri-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "batt",
+        "display" : "Batt Power Company",
+        "price": 1000,
+        "saving": 500,
+        "subject": "FLAT 15% off",
+        "expiry": "31 August 2015",
+        "category": "Automobiles",
+        "tags": ["batteries", "battery"],
+        "images": {
+            "thumb": "img/deals/batt-fr.jpg",
+            "front": "img/deals/batt-fr.jpg",
+            "back": "img/deals/batt-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "bollywood",
+        "display" : "Bollywood Multiplex",
+        "price": 250,
+        "saving": 125,
+        "subject": "Buy 1 get 50% OFF on 2nd",
+        "expiry": "31 August 2015",
+        "category": "Entertainment",
+        "tags": ["movies", "theatre", "flims", "multiplex", "cinema"],
+        "images": {
+            "thumb": "img/deals/bollywood-fr.jpg",
+            "front": "img/deals/bollywood-fr.jpg",
+            "back": "img/deals/bollywood-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "cubalibre",
+        "display" : "Cuba Libre",
+        "price": 500,
+        "saving": 250,
+        "subject": "Buy 1 Get 1 Free",
+        "expiry": "31 August 2015",
+        "category": "Food",
+        "tags": ["bar", "pub", "drinks"],
+        "images": {
+            "thumb": "img/deals/cubalibre-fr.jpg",
+            "front": "img/deals/cubalibre-fr.jpg",
+            "back": "img/deals/cubalibre-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "curve",
+        "display" : "The Curve Institute",
+        "price": 1000,
+        "saving": 300,
+        "subject": "Flat 30% Off",
+        "expiry": "31 August 2015",
+        "category": "Education",
+        "tags": ["education", "institute", "soft skills", "ielts", "tofel", "personality", "development", "speaking", "english"],
+        "images": {
+            "thumb": "img/deals/curve-fr.jpg",
+            "front": "img/deals/curve-fr.jpg",
+            "back": "img/deals/curve-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "fastticket",
+        "display" : "Fast Ticket",
+        "price": 500,
+        "saving": 125,
+        "subject": "Get 50% off",
+        "expiry": "31 August 2015",
+        "category": "Entertainment",
+        "tags": ["ticket", "recharge", "bill", "movies", "theatre", "flims", "multiplex", "cinema"],
+        "images": {
+            "thumb": "img/deals/fastticket-fr.jpg",
+            "front": "img/deals/fastticket-fr.jpg",
+            "back": "img/deals/fastticket-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "fastticket",
+        "display" : "Fast Ticket",
+        "price": 500,
+        "saving": 125,
+        "subject": "Get 50% off",
+        "expiry": "31 August 2015",
+        "category": "Entertainment",
+        "tags": ["ticket", "recharge", "bill", "movies", "theatre", "flims", "multiplex", "cinema"],
+        "images": {
+            "thumb": "img/deals/fastticket-fr.jpg",
+            "front": "img/deals/fastticket-fr.jpg",
+            "back": "img/deals/fastticket-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "ffd",
+        "display" : "Freedom From Diabetes",
+        "price": 500,
+        "saving": 125,
+        "subject": "",
+        "expiry": "31 August 2015",
+        "category": "Health & Beauty",
+        "tags": ["diabetes", "cholesterol", "hypertension", "stress", "health", "wellness", "heart", "treatment"],
+        "images": {
+            "thumb": "img/deals/ffd-fr.jpg",
+            "front": "img/deals/ffd-fr.jpg",
+            "back": "img/deals/ffd-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "highoctane1",
+        "display" : "HighOctane",
+        "price": 500,
+        "saving": 250,
+        "subject": "Buy 1 Get 1 on Bowling",
+        "expiry": "31 August 2015",
+        "category": "Entertainment",
+        "tags": ["bowling", "games", "gaming zone", "birthday", "parties", "outing"],
+        "images": {
+            "thumb": "img/deals/highoctane1-fr.jpg",
+            "front": "img/deals/highoctane1-fr.jpg",
+            "back": "img/deals/highoctane1-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "highoctane2",
+        "display" : "HighOctane",
+        "price": 500,
+        "saving": 250,
+        "subject": "Go Karting only at Rs 100/-",
+        "expiry": "31 August 2015",
+        "category": "Entertainment",
+        "tags": ["bowling", "games", "gaming zone", "birthday", "parties", "outing", "go karting"],
+        "images": {
+            "thumb": "img/deals/highoctane2-fr.jpg",
+            "front": "img/deals/highoctane2-fr.jpg",
+            "back": "img/deals/highoctane2-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "highspeed",
+        "display" : "High Speed",
+        "price": 500,
+        "saving": 100,
+        "subject": "15% Off",
+        "expiry": "31 August 2015",
+        "category": "Automobiles",
+        "tags": ["car servicing", "denting and painting", "repair", "towing", "insurance"],
+        "images": {
+            "thumb": "img/deals/highspeed-fr.jpg",
+            "front": "img/deals/highspeed-fr.jpg",
+            "back": "img/deals/highspeed-bk.jpg"
+        }
+   }
+    ,{   
+        "name": "pantudantu",
+        "display" : "Pantu Dantu",
+        "price": 500,
+        "saving": 150,
+        "subject": "15% Off",
+        "expiry": "31 August 2015",
+        "category": "Entertainment",
+        "tags": ["kids", "adventure", "rock climbing", "inflatable", "trampoline", "gravity walk", "toddler zone"],
+        "images": {
+            "thumb": "img/deals/indoorkids-fr.jpg",
+            "front": "img/deals/indoorkids-fr.jpg",
+            "back": "img/deals/indoorkids-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "leroyce",
+        "display" : "Leroyce",
+        "price": 500,
+        "saving": 150,
+        "subject": "Flat 15% Off",
+        "expiry": "31 August 2015",
+        "category": "Corporates",
+        "tags": ["Banquet", "Conferences"],
+        "images": {
+            "thumb": "img/deals/leroyce-fr.jpg",
+            "front": "img/deals/leroyce-fr.jpg",
+            "back": "img/deals/leroyce-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "mahalaxmi",
+        "display" : "Mahalaxmi Automotives Pvt. Ltd.",
+        "price": 500,
+        "saving": 100,
+        "subject": "20% Discount",
+        "expiry": "31 August 2015",
+        "category": "Automobiles",
+        "tags": ["car servicing", "repairing"],
+        "images": {
+            "thumb": "img/deals/mahalaxmi-fr.jpg",
+            "front": "img/deals/mahalaxmi-fr.jpg",
+            "back": "img/deals/mahalaxmi-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "ohotel",
+        "display" : "The O Hotel",
+        "price": 2000,
+        "saving": 400,
+        "subject": "20% Discount",
+        "expiry": "31 August 2015",
+        "category": "Hotel",
+        "tags": ["stay", "rooms", "3 star", "4 star", "5 star"],
+        "images": {
+            "thumb": "img/deals/ohotel-fr.jpg",
+            "front": "img/deals/ohotel-fr.jpg",
+            "back": "img/deals/ohotel-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "punjabirasoi",
+        "display" : "Punjabi Rasoi XRS",
+        "price": 500,
+        "saving": 100,
+        "subject": "20% Off",
+        "expiry": "31 August 2015",
+        "category": "Food",
+        "tags": ["restaurant", "snacks", "lunch", "dinner", "thali", "ala carte"],
+        "images": {
+            "thumb": "img/deals/punjabirasoi-fr.jpg",
+            "front": "img/deals/punjabirasoi-fr.jpg",
+            "back": "img/deals/punjabirasoi-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "rdx",
+        "display" : "RDX Music Academy",
+        "price": 1000,
+        "saving": 250,
+        "subject": "Flat 25% Off",
+        "expiry": "31 August 2015",
+        "category": "Music",
+        "tags": ["guitar", "keyboard", "drums", "violin", "vocals", "singing", "western"],
+        "images": {
+            "thumb": "img/deals/rdx-fr.jpg",
+            "front": "img/deals/rdx-fr.jpg",
+            "back": "img/deals/rdx-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "sawant",
+        "display" : "Sawant Agri Farms",
+        "price": 500,
+        "saving": 500,
+        "subject": "Buy 1 Get 1 Free",
+        "expiry": "31 August 2015",
+        "category": "Tourism",
+        "tags": ["agro", "agriculture", "outing", "picnic", "village", "getaway", "rural"],
+        "images": {
+            "thumb": "img/deals/sawant-fr.jpg",
+            "front": "img/deals/sawant-fr.jpg",
+            "back": "img/deals/sawant-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "shathayu",
+        "display" : "Shathayu Ayurvedic",
+        "price": 2000,
+        "saving": 1000,
+        "subject": "Flat Rs. 1000/- Off",
+        "expiry": "31 August 2015",
+        "category": "Health & Beauty",
+        "tags": ["ayurved", "naturopathy", "diabetes", "migraine", "psoriasis", "spondylitics", "hair fall", "arthrithis", "asthma"],
+        "images": {
+            "thumb": "img/deals/shathayu-fr.jpg",
+            "front": "img/deals/shathayu-fr.jpg",
+            "back": "img/deals/shathayu-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "sipa",
+        "display" : "SIPA Dancing School",
+        "price": 1000,
+        "saving": 200,
+        "subject": "20% Discount",
+        "expiry": "31 August 2015",
+        "category": "Music",
+        "tags": ["dance", "aerobics", "zumba", "choreography", "workshops", "bollywood", "western"],
+        "images": {
+            "thumb": "img/deals/sipa-fr.jpg",
+            "front": "img/deals/sipa-fr.jpg",
+            "back": "img/deals/sipa-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "tata",
+        "display" : "Tata Photon max",
+        "price": 2000,
+        "saving": 500,
+        "subject": "Data Card @ Rs. 500/-",
+        "expiry": "31 August 2015",
+        "category": "communication",
+        "tags": ["internet", "mobile", "3g", "2g", "phone"],
+        "images": {
+            "thumb": "img/deals/tata-fr.jpg",
+            "front": "img/deals/tata-fr.jpg",
+            "back": "img/deals/tata-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "swiss",
+        "display" : "SWISS Carline",
+        "price": 1000,
+        "saving": 200,
+        "subject": "20% Discount",
+        "expiry": "31 August 2015",
+        "category": "Music",
+        "tags": ["car rental", "taxi service", "cab service", "pickup drop"],
+        "images": {
+            "thumb": "img/deals/swiss-fr.jpg",
+            "front": "img/deals/swiss-fr.jpg",
+            "back": "img/deals/swiss-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "tvs",
+        "display" : "TVS Jupiter",
+        "price": 6000,
+        "saving": 3118,
+        "subject": "Save Rs 3118/-",
+        "expiry": "31 August 2015",
+        "category": "Automobiles",
+        "tags": ["bike", "scooter", "activa", "wego", "honda"],
+        "images": {
+            "thumb": "img/deals/tvs-fr.jpg",
+            "front": "img/deals/tvs-fr.jpg",
+            "back": "img/deals/tvs-bk.jpg"
+        }
+    }
+    ,{   
+        "name": "venus",
+        "display" : "Venus Tyres",
+        "price": 1000,
+        "saving": 500,
+        "subject": "50% Discount",
+        "expiry": "31 August 2015",
+        "category": "Automobiles",
+        "tags": ["tyres", "car servic", "wheel alignment", "wheel balancing", "batteries"],
+        "images": {
+            "thumb": "img/deals/venus-fr.jpg",
+            "front": "img/deals/venus-fr.jpg",
+            "back": "img/deals/venus-bk.jpg"
+        }
+    }
 ]
